@@ -3,3 +3,7 @@ Lesson: Infrastructure as Code: Deploy CloudFormation Stack
 What does it do?
 Deploy a stack with a simple EC2
 Start app by using a script in userData
+
+
+How to run it:
+Run deploy-infra.sh, and it will create the cloudformation stack

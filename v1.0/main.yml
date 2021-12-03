@@ -202,17 +202,18 @@ Resources:
 
             mv aws-bootstrap-master app
 
-
-
             # Create log directory
 
             mkdir -p /home/ec2-user/app/logs
 
 
-
             # Run server
 
             cd app
+            
+            mv v1.0/* .
+            
+            rm -rf v1.0
 
             npm install
 
