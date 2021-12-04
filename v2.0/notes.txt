@@ -1,0 +1,11 @@
+Lessons: 
+from -> Automatic Deployments: Codebuild 
+to -> Automatice Deployments: create a CodePipeline
+
+What does it do?
+Deploy a stack with a simple EC2
+Create a Pipeline that builds and deploys the app into staging using CodeBuild
+How to run it:
+Run deploy-infra.sh, and it will create the two cloudformation stacks
+To delete it:
+First delete all files in the S3 bucket, and then delete both stacks
