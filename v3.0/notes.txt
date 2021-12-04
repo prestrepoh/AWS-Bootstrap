@@ -1,0 +1,8 @@
+Lesson: Add a second EC2 instance
+
+What does it do?
+create an EC2 template and create two instances using it
+How to run it:
+Run deploy-infra.sh, and it will create the two cloudformation stacks
+To delete it:
+First delete all files in the S3 bucket, and then delete both stacks
