@@ -1,0 +1,9 @@
+Lesson: Add an Auto Scaling Group
+
+What does it do?
+Add An ASG
+
+How to run it:
+Run deploy-infra.sh, and it will create the two cloudformation stacks
+To delete it:
+First delete all files in the S3 bucket, and then delete both stacks
